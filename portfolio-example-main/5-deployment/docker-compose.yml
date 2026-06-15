@@ -1,0 +1,27 @@
+services:
+  ingest:
+    build:
+      context: .
+      dockerfile: ingest/ingest.Dockerfile
+    volumes:
+      - ./data:/app/data
+
+  preprocess:
+    build:
+      context: .
+      dockerfile: preprocess/preprocess.Dockerfile
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - ingest
+
+  model:
+    build:
+      context: .
+      dockerfile: model/model.Dockerfile
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8000:8000"
+    depends_on:
+      - preprocess
