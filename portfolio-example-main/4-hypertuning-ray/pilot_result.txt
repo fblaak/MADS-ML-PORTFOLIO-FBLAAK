@@ -1,0 +1,2 @@
+pilot best config:
+{'input_size': 3, 'output_size': 20, 'data_dir': PosixPath('/home/fblaak/MADS-ML-PORTFOLIO-FBLAAK/portfolio-example-main/4-hypertuning-ray/data/raw/gestures/gestures-dataset'), 'hidden_size': 104, 'dropout': 0.1311825800944732, 'num_layers': 2}

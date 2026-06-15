@@ -1,0 +1,17 @@
+Best run directory: 4-hypertuning-ray/logs/ray/train_2026-06-15_11-42-31
+
+Best trial id: train_d2ca7a1c
+Best metrics:
+  test_loss: 0.06415420873090624
+  Accuracy: 0.9875
+
+Best parameters:
+  input_size: 3
+  output_size: 20
+  hidden_size: 123
+  dropout: 0.0013014502381941961
+  num_layers: 4
+
+Notes:
+- Experiment logs and checkpoints (if any) are stored under the run directory above.
+- To reproduce the search, run `python hypertune.py` or call `run_search(num_samples=50, max_epochs=10, storage_dir="logs/ray")` from `hypertune.py`.

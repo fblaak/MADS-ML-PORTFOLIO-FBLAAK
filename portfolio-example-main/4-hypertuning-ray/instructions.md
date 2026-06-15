@@ -78,3 +78,85 @@ You will get a:
 - If you want to add your own `src` folder for import, the best way is to properly create your environment with `uv`. Another option is to figure out if your `src` folder is located at the ".." or "../.." location, relative to your notebook, and use a `sys.path.insert(0, "..")` command (that is, if you need to explicitly add it because the notebook cant find your src folder)
 - same goes for datalocations. `"../../data/raw"` might have changed into `"../data/raw"` depending in your setup. `mads_datasets` uses `Path.home() / ".cache/mads_datasets"` as a default location, so you can use that from every folder on your computer.
 - PRACTICE linting and formating (using a Makefile makes this easier). ruff format and ruff check should be run, it helps you to improve your code. (ruff has a --fix argument to autofix issues), mypy often takes a bit more effort (because you need to typehint) but you will become a better programmer if you learn to think about the types of your input and output, and LLMs can help you with this. Additionally mypy will catch possible errors that dont show up during a first run (but might show up later, with different input)
+# Hypertuning assignment — Ray Tune
+
+This folder contains an example hyperparameter tuning setup using Ray Tune. Below are the assignment description, the implementation notes and exact commands to reproduce experiments.
+
+## Assignment objective
+- Design and run a hyperparameter search for an RNN model on the gestures dataset.
+- Use Ray Tune to explore a configurable search space, document your experimental protocol, and produce a short English report with results and conclusions.
+
+## Files in this folder
+- `hypertune.py`: the implemented Ray Tune experiment (example trainer that uses `mltrainer` and `mads_datasets`).
+- `instructions.md`: this file (assignment + run instructions).
+- `summary.md`: short English report with hypothesis, setup and reproduction steps.
+
+If you want to adapt the experiment, edit `hypertune.py` (search space and training details are defined there).
+
+## Key design choices (implementation summary)
+- Dataset: `mads_datasets` gestures dataset (see `hypertune.py` — `DatasetType.GESTURES`).
+- Model family: GRU-based RNNs via `mltrainer.rnn_models` and `rnn_models.GRUmodel`.
+- Search space (example in `hypertune.py`):
+    - `hidden_size`: integer sampled from [16, 128]
+    - `dropout`: uniform in [0.0, 0.3]
+    - `num_layers`: integer sampled from [2, 4]
+- Tuner: `HyperOptSearch` + `AsyncHyperBandScheduler` (the example uses `NUM_SAMPLES=50` and `MAX_EPOCHS=10`).
+
+## Environment & dependencies
+Use the project's virtual environment or create a new one. Minimal packages required (examples):
+
+```bash
+# create + activate venv (if not already active)
+python -m venv .venv
+source .venv/bin/activate
+
+# install dependencies (adjust if you use poetry/uv)
+pip install -U pip
+pip install ray[default] torch filelock loguru mltrainer mads_datasets
+```
+
+Note: prefer installing from the project's `pyproject.toml` when available; the command above lists the main runtime requirements for `hypertune.py`.
+
+## Running the experiment
+From the project root, run:
+
+```bash
+python 4-hypertuning-ray/hypertune.py
+```
+
+This script calls `ray.init()` and `tune.run(...)`. Outputs (Ray storage) will be written under `logs/ray` by default (see `hypertune.py`). Model-level reports use `ReportTypes.RAY` so Ray receives metrics.
+
+### Quick local test (single-sample)
+To test quickly without running the full search, edit `hypertune.py` and set `NUM_SAMPLES = 1` and `MAX_EPOCHS = 2`, then run the same command. This will verify environment and dataloaders.
+
+## Reproducing and analysing results
+- After a full run the `tune.run` returns an `analysis` object.
+- To retrieve the best config after a run, open a Python REPL in the project root and run:
+
+```python
+from ray import tune
+from pathlib import Path
+from ray.tune.analysis import Analysis
+
+analysis = Analysis(str(Path('logs/ray')))
+best_config = analysis.get_best_config(metric='test_loss', mode='min')
+print(best_config)
+```
+
+- You can also load the results into a pandas DataFrame for plotting:
+
+```python
+df = analysis.dataframe(metric='test_loss')
+```
+
+## Notes & best practices
+- Use a small pilot run to narrow the search space before committing to many samples.
+- When creating heatmaps or interactive visualisations, avoid mixing results from early-stopped trials (HyperBand) with fully trained trials — filter by `training_iteration` or use experiments with the same `max_epochs`.
+- Locking: `hypertune.py` already uses a `FileLock` to avoid simultaneous downloads of the gestures dataset.
+
+## What to hand in (deliverables)
+1. This folder contains your implementation (`hypertune.py`).
+2. A short English report `summary.md` (placed in this folder) describing the hypothesis, experimental protocol, hyperparameter search space, key results and conclusions.
+3. A reproducible command to rerun the best experiment and the list of package versions used.
+
+If you want, I can run a quick pilot experiment on your machine and then update `summary.md` with the actual results.

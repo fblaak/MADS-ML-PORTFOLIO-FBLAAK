@@ -86,20 +86,20 @@ def train(config: Dict):
     trainer.loop()
 
 
-if __name__ == "__main__":
+def run_search(num_samples: int = NUM_SAMPLES, max_epochs: int = MAX_EPOCHS, storage_dir: Path = Path("logs/ray")):
     ray.init()
 
     data_dir = Path("data/raw/gestures/gestures-dataset").resolve()
     if not data_dir.exists():
         data_dir.mkdir(parents=True)
         logger.info(f"Created {data_dir}")
-    tune_dir = Path("logs/ray").resolve()
+    tune_dir = storage_dir.resolve()
     search = HyperOptSearch()
     scheduler = AsyncHyperBandScheduler(
         time_attr="training_iteration",
         grace_period=1,
         reduction_factor=3,
-        max_t=MAX_EPOCHS,
+        max_t=max_epochs,
     )
 
     config = {
@@ -121,10 +121,16 @@ if __name__ == "__main__":
         mode="min",
         progress_reporter=reporter,
         storage_path=str(tune_dir),
-        num_samples=NUM_SAMPLES,
+        num_samples=num_samples,
         search_alg=search,
         scheduler=scheduler,
         verbose=1,
     )
 
     ray.shutdown()
+    return analysis
+
+
+if __name__ == "__main__":
+    # keep backward compatibility: run default search when executed directly
+    run_search()

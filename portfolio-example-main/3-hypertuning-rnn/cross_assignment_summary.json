@@ -1,0 +1,1506 @@
+{
+  "per_run": {
+    "assignment1": [
+      {
+        "run": "20260307-114607",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114607",
+        "accuracy": 0.7917187213897705,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114613",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114613",
+        "accuracy": 0.8715945482254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114626",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114626",
+        "accuracy": 0.8744992017745972,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114641",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114641",
+        "accuracy": 0.8656851053237915,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114653",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114653",
+        "accuracy": 0.8671875,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114704",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114704",
+        "accuracy": 0.8666867017745972,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114717",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114717",
+        "accuracy": 0.8637820482254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114727",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114727",
+        "accuracy": 0.8594751358032227,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114737",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114737",
+        "accuracy": 0.8622796535491943,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-114747",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-114747",
+        "accuracy": 0.8526642918586731,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165544",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165544",
+        "accuracy": 0.8787059187889099,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165607",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165607",
+        "accuracy": 0.8713942170143127,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165629",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165629",
+        "accuracy": 0.8707932829856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165650",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165650",
+        "accuracy": 0.8754006624221802,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165709",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165709",
+        "accuracy": 0.8751001358032227,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165727",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165727",
+        "accuracy": 0.8650841116905212,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165744",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165744",
+        "accuracy": 0.8746995329856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165801",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165801",
+        "accuracy": 0.8712940812110901,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-165818",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-165818",
+        "accuracy": 0.8604767918586731,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-170940",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-170940",
+        "accuracy": 0.8863180875778198,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171026",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171026",
+        "accuracy": 0.8785055875778198,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171110",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171110",
+        "accuracy": 0.8833132982254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171150",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171150",
+        "accuracy": 0.8834134340286255,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171229",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171229",
+        "accuracy": 0.8879206776618958,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171304",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171304",
+        "accuracy": 0.8845152258872986,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171341",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171341",
+        "accuracy": 0.8764022588729858,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171415",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171415",
+        "accuracy": 0.8704928159713745,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-171447",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-171447",
+        "accuracy": 0.8781049847602844,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203233",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203233",
+        "accuracy": 0.8499599099159241,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203248",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203248",
+        "accuracy": 0.8494591116905212,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203304",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203304",
+        "accuracy": 0.8560696840286255,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203319",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203319",
+        "accuracy": 0.8499599099159241,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203334",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203334",
+        "accuracy": 0.8588742017745972,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203349",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203349",
+        "accuracy": 0.8643830418586731,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203405",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203405",
+        "accuracy": 0.8687900900840759,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203422",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203422",
+        "accuracy": 0.8587740659713745,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203437",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203437",
+        "accuracy": 0.8608773946762085,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203452",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203452",
+        "accuracy": 0.8565705418586731,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203508",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203508",
+        "accuracy": 0.8628805875778198,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203523",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203523",
+        "accuracy": 0.8616786599159241,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203539",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203539",
+        "accuracy": 0.8665865659713745,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203555",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203555",
+        "accuracy": 0.8707932829856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203614",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203614",
+        "accuracy": 0.8452523946762085,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203630",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203630",
+        "accuracy": 0.8646835088729858,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203646",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203646",
+        "accuracy": 0.8649839758872986,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203701",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203701",
+        "accuracy": 0.8676882982254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203718",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203718",
+        "accuracy": 0.8706930875778198,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203735",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203735",
+        "accuracy": 0.8693910241127014,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203752",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203752",
+        "accuracy": 0.8775039911270142,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203813",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203813",
+        "accuracy": 0.8630809187889099,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203829",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203829",
+        "accuracy": 0.8684895634651184,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203846",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203846",
+        "accuracy": 0.8757011294364929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203905",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203905",
+        "accuracy": 0.8742988705635071,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203922",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203922",
+        "accuracy": 0.8787059187889099,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-203941",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-203941",
+        "accuracy": 0.864182710647583,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204001",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204001",
+        "accuracy": 0.8758012652397156,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204026",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204026",
+        "accuracy": 0.8694911599159241,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204046",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204046",
+        "accuracy": 0.8676882982254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204106",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204106",
+        "accuracy": 0.8752003312110901,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204128",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204128",
+        "accuracy": 0.8712940812110901,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204149",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204149",
+        "accuracy": 0.8768028616905212,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204213",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204213",
+        "accuracy": 0.875901460647583,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204238",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204238",
+        "accuracy": 0.8804086446762085,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204314",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204314",
+        "accuracy": 0.878004789352417,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204350",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204350",
+        "accuracy": 0.8788061141967773,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204418",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204418",
+        "accuracy": 0.8790063858032227,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204455",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204455",
+        "accuracy": 0.8783053159713745,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204523",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204523",
+        "accuracy": 0.8787059187889099,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204604",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204604",
+        "accuracy": 0.8692908883094788,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204655",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204655",
+        "accuracy": 0.8834134340286255,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204751",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204751",
+        "accuracy": 0.8818109035491943,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204848",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204848",
+        "accuracy": 0.8765023946762085,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-204947",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-204947",
+        "accuracy": 0.8779046535491943,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-205048",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-205048",
+        "accuracy": 0.8833132982254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-205145",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-205145",
+        "accuracy": 0.8763020634651184,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-205253",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-205253",
+        "accuracy": 0.8795071840286255,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260307-205411",
+        "path": "1-hypertuning-gridsearch/modellogs/20260307-205411",
+        "accuracy": 0.8856169581413269,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-195709",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-195709",
+        "accuracy": 0.6924999952316284,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-195712",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-195712",
+        "accuracy": 0.8307999968528748,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-195754",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-195754",
+        "accuracy": 0.6575000286102295,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-195755",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-195755",
+        "accuracy": 0.8592000007629395,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-195927",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-195927",
+        "accuracy": 0.8539000153541565,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-200100",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-200100",
+        "accuracy": 0.8486999869346619,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-200245",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-200245",
+        "accuracy": 0.8589000105857849,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-200434",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-200434",
+        "accuracy": 0.8716999888420105,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-200628",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-200628",
+        "accuracy": 0.8615999817848206,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-200846",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-200846",
+        "accuracy": 0.871999979019165,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-201114",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-201114",
+        "accuracy": 0.8525000214576721,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-201405",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-201405",
+        "accuracy": 0.8668000102043152,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260308-202034",
+        "path": "1-hypertuning-gridsearch/modellogs/20260308-202034",
+        "accuracy": 0.8641999959945679,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190429",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190429",
+        "accuracy": 0.8053125143051147,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190452",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190452",
+        "accuracy": 0.8872195482254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190538",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190538",
+        "accuracy": 0.8799078464508057,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190621",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190621",
+        "accuracy": 0.8835136294364929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190703",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190703",
+        "accuracy": 0.879807710647583,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190740",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190740",
+        "accuracy": 0.8762019276618958,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190817",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190817",
+        "accuracy": 0.8805088400840759,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190852",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190852",
+        "accuracy": 0.8820112347602844,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190926",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190926",
+        "accuracy": 0.8813101053237915,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-190958",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-190958",
+        "accuracy": 0.8757011294364929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-192823",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-192823",
+        "accuracy": 0.8151562213897705,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-192825",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-192825",
+        "accuracy": 0.8807091116905212,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-192907",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-192907",
+        "accuracy": 0.7967187762260437,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-192909",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-192909",
+        "accuracy": 0.8873196840286255,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-192955",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-192955",
+        "accuracy": 0.8918269276618958,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-193039",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-193039",
+        "accuracy": 0.8843148946762085,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-193123",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-193123",
+        "accuracy": 0.8852163553237915,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-193201",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-193201",
+        "accuracy": 0.8849158883094788,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-193239",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-193239",
+        "accuracy": 0.8708934187889099,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194456",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194456",
+        "accuracy": 0.7979687452316284,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194458",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194458",
+        "accuracy": 0.7964062690734863,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194500",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194500",
+        "accuracy": 0.6954687237739563,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194725",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194725",
+        "accuracy": 0.8184375166893005,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194728",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194728",
+        "accuracy": 0.8204687237739563,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194731",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194731",
+        "accuracy": 0.7246875166893005,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194822",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194822",
+        "accuracy": 0.839062511920929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194828",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194828",
+        "accuracy": 0.8495312333106995,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-194833",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-194833",
+        "accuracy": 0.7900000214576721,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-195856",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-195856",
+        "accuracy": 0.6625000238418579,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-195901",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-195901",
+        "accuracy": 0.19640624523162842,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-195907",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-195907",
+        "accuracy": 0.10015624761581421,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-195934",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-195934",
+        "accuracy": 0.8029687404632568,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-195939",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-195939",
+        "accuracy": 0.8299999833106995,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-195945",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-195945",
+        "accuracy": 0.7860937714576721,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205320",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205320",
+        "accuracy": 0.8120312690734863,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205324",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205324",
+        "accuracy": 0.8239062428474426,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205327",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205327",
+        "accuracy": 0.7340624928474426,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205330",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205330",
+        "accuracy": 0.6270312666893005,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205332",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205332",
+        "accuracy": 0.1876562535762787,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205335",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205335",
+        "accuracy": 0.13875000178813934,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205338",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205338",
+        "accuracy": 0.807812511920929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205340",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205340",
+        "accuracy": 0.815625011920929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-205343",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-205343",
+        "accuracy": 0.7595312595367432,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210328",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210328",
+        "accuracy": 0.828125,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210330",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210330",
+        "accuracy": 0.8182812333106995,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210334",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210334",
+        "accuracy": 0.7406250238418579,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210338",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210338",
+        "accuracy": 0.6079687476158142,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210340",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210340",
+        "accuracy": 0.16515624523162842,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210343",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210343",
+        "accuracy": 0.05234374850988388,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210345",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210345",
+        "accuracy": 0.8209375143051147,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210348",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210348",
+        "accuracy": 0.8103125095367432,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-210351",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-210351",
+        "accuracy": 0.7493749856948853,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-215231",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-215231",
+        "accuracy": 0.8891226053237915,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260315-215324",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-215324",
+        "accuracy": null,
+        "acc_key": null
+      },
+      {
+        "run": "20260315-220008",
+        "path": "1-hypertuning-gridsearch/modellogs/20260315-220008",
+        "accuracy": null,
+        "acc_key": null
+      },
+      {
+        "run": "20260321-113203",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113203",
+        "accuracy": 0.8107812404632568,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113403",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113403",
+        "accuracy": 0.8856169581413269,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113454",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113454",
+        "accuracy": 0.8842147588729858,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113541",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113541",
+        "accuracy": 0.8809094429016113,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113626",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113626",
+        "accuracy": 0.8859174847602844,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113707",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113707",
+        "accuracy": 0.8848156929016113,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113746",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113746",
+        "accuracy": 0.8704928159713745,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113825",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113825",
+        "accuracy": 0.8788061141967773,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113901",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113901",
+        "accuracy": 0.8787059187889099,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-113937",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-113937",
+        "accuracy": 0.8722956776618958,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115629",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115629",
+        "accuracy": 0.7993749976158142,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115632",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115632",
+        "accuracy": 0.8025000095367432,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115635",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115635",
+        "accuracy": 0.7021874785423279,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115637",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115637",
+        "accuracy": 0.3878124952316284,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115640",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115640",
+        "accuracy": 0.09828124940395355,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115643",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115643",
+        "accuracy": 0.09906250238418579,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115645",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115645",
+        "accuracy": 0.8118749856948853,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115648",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115648",
+        "accuracy": 0.789843738079071,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260321-115651",
+        "path": "1-hypertuning-gridsearch/modellogs/20260321-115651",
+        "accuracy": 0.7253124713897705,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161347",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161347",
+        "accuracy": 0.140625,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161717",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161717",
+        "accuracy": 0.8040624856948853,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161720",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161720",
+        "accuracy": 0.83203125,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161722",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161722",
+        "accuracy": 0.823437511920929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161724",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161724",
+        "accuracy": 0.7964062690734863,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161726",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161726",
+        "accuracy": 0.8254687786102295,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161729",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161729",
+        "accuracy": 0.8021875023841858,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161731",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161731",
+        "accuracy": 0.7506250143051147,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161733",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161733",
+        "accuracy": 0.7873437404632568,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161735",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161735",
+        "accuracy": 0.762499988079071,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161738",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161738",
+        "accuracy": 0.8026562333106995,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161739",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161739",
+        "accuracy": 0.8420312404632568,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161741",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161741",
+        "accuracy": 0.8107812404632568,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161743",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161743",
+        "accuracy": 0.7776562571525574,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161745",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161745",
+        "accuracy": 0.8251562714576721,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161747",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161747",
+        "accuracy": 0.8043749928474426,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161749",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161749",
+        "accuracy": 0.6709374785423279,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161751",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161751",
+        "accuracy": 0.7749999761581421,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-161753",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-161753",
+        "accuracy": 0.6759374737739563,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163250",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163250",
+        "accuracy": 0.8115624785423279,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163253",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163253",
+        "accuracy": 0.8822115659713745,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163349",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163349",
+        "accuracy": 0.8886218070983887,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163442",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163442",
+        "accuracy": 0.8763020634651184,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163533",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163533",
+        "accuracy": 0.8825120329856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163624",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163624",
+        "accuracy": 0.8824118375778198,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163713",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163713",
+        "accuracy": 0.8826121687889099,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163759",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163759",
+        "accuracy": 0.8868188858032227,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163848",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163848",
+        "accuracy": 0.8703926205635071,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-163936",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-163936",
+        "accuracy": 0.8806089758872986,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164023",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164023",
+        "accuracy": 0.8678886294364929,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164111",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164111",
+        "accuracy": 0.8891226053237915,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164153",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164153",
+        "accuracy": 0.8887219429016113,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164236",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164236",
+        "accuracy": 0.8825120329856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164320",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164320",
+        "accuracy": 0.8862179517745972,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164400",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164400",
+        "accuracy": 0.8825120329856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164442",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164442",
+        "accuracy": 0.8891226053237915,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164527",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164527",
+        "accuracy": 0.8831129670143127,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164610",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164610",
+        "accuracy": 0.8795071840286255,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164649",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164649",
+        "accuracy": 0.8832131624221802,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164732",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164732",
+        "accuracy": 0.8800080418586731,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164811",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164811",
+        "accuracy": 0.8809094429016113,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164851",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164851",
+        "accuracy": 0.8746995329856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-164933",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-164933",
+        "accuracy": 0.8773036599159241,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165013",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165013",
+        "accuracy": 0.8722956776618958,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165049",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165049",
+        "accuracy": 0.8795071840286255,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165128",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165128",
+        "accuracy": 0.8714944124221802,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165204",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165204",
+        "accuracy": 0.8786057829856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165242",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165242",
+        "accuracy": 0.7823437452316284,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165245",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165245",
+        "accuracy": 0.7962499856948853,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165248",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165248",
+        "accuracy": 0.6971874833106995,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165251",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165251",
+        "accuracy": 0.32249999046325684,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165254",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165254",
+        "accuracy": 0.1028124988079071,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165257",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165257",
+        "accuracy": 0.048124998807907104,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165259",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165259",
+        "accuracy": 0.7467187643051147,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165303",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165303",
+        "accuracy": 0.8060937523841858,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165307",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165307",
+        "accuracy": 0.7284374833106995,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165311",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165311",
+        "accuracy": 0.8832131624221802,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165334",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165334",
+        "accuracy": 0.8848156929016113,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165401",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165401",
+        "accuracy": 0.8768028616905212,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165429",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165429",
+        "accuracy": 0.8700921535491943,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165454",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165454",
+        "accuracy": 0.8790063858032227,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165525",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165525",
+        "accuracy": 0.8658854365348816,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165553",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165553",
+        "accuracy": 0.8520632982254028,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165621",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165621",
+        "accuracy": 0.8629807829856873,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165650",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165650",
+        "accuracy": 0.854567289352417,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165721",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165721",
+        "accuracy": 0.8606770634651184,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165740",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165740",
+        "accuracy": 0.8772035241127014,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165802",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165802",
+        "accuracy": 0.8781049847602844,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165825",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165825",
+        "accuracy": 0.8634815812110901,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165845",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165845",
+        "accuracy": 0.874098539352417,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165909",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165909",
+        "accuracy": 0.8689903616905212,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165934",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165934",
+        "accuracy": 0.8388421535491943,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-165954",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-165954",
+        "accuracy": 0.8571714758872986,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-170020",
+        "path": "1-hypertuning-gridsearch/modellogs/20260613-170020",
+        "accuracy": 0.8309294581413269,
+        "acc_key": "metric/Accuracy"
+      }
+    ],
+    "assignment2": [
+      {
+        "run": "20260613-180033",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180033",
+        "accuracy": 0.8773437738418579,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180053",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180053",
+        "accuracy": 0.8626562356948853,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180116",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180116",
+        "accuracy": 0.8737499713897705,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180132",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180132",
+        "accuracy": 0.8706250190734863,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180156",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180156",
+        "accuracy": 0.8801562786102295,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180221",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180221",
+        "accuracy": 0.8709375262260437,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180244",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180244",
+        "accuracy": 0.8695312738418579,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180310",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180310",
+        "accuracy": 0.8712499737739563,
+        "acc_key": "metric/Accuracy"
+      },
+      {
+        "run": "20260613-180335",
+        "path": "2-hypertuning-mlflow/modellogs/20260613-180335",
+        "accuracy": 0.8740624785423279,
+        "acc_key": "metric/Accuracy"
+      }
+    ],
+    "root": []
+  },
+  "best": {
+    "assignment1": {
+      "max": 0.8918269276618958,
+      "mean": 0.8069610328934456,
+      "std": 0.16689683077642073,
+      "n": 236
+    },
+    "assignment2": {
+      "max": 0.8801562786102295,
+      "mean": 0.8722569478882684,
+      "std": 0.004699708264343251,
+      "n": 9
+    },
+    "root": null
+  }
+}

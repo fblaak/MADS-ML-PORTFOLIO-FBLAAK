@@ -1,0 +1,20 @@
+{
+  "Loss/train": {
+    "mean_last": 1.8696797688802083,
+    "std_last": 0.02648495046883689,
+    "n_runs": 3,
+    "plot": "3-hypertuning-rnn/figures/Loss_train_runs.png"
+  },
+  "Loss/test": {
+    "mean_last": 1.367329716682434,
+    "std_last": 0.03223337552231396,
+    "n_runs": 3,
+    "plot": "3-hypertuning-rnn/figures/Loss_test_runs.png"
+  },
+  "metric/Accuracy": {
+    "mean_last": 0.4732291599114736,
+    "std_last": 0.029591757130217312,
+    "n_runs": 3,
+    "plot": "3-hypertuning-rnn/figures/metric_Accuracy_runs.png"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "run": "20260613-205947",
+    "path": "3-hypertuning-rnn/modellogs/20260613-205947",
+    "model_toml_excerpt": "[model]\ntraining = true\nexperiment = \"sanity_rnn_GRU\"\n\n[types]\ntraining = \"bool\"\nexperiment = \"str\"\n"
+  },
+  {
+    "run": "20260613-205949",
+    "path": "3-hypertuning-rnn/modellogs/20260613-205949",
+    "model_toml_excerpt": "[model]\ntraining = true\nexperiment = \"sanity_rnn_LSTM\"\n\n[types]\ntraining = \"bool\"\nexperiment = \"str\"\n"
+  },
+  {
+    "run": "20260613-205950",
+    "path": "3-hypertuning-rnn/modellogs/20260613-205950",
+    "model_toml_excerpt": "[model]\ntraining = true\nexperiment = \"sanity_rnn_Conv1D+GRU\"\n\n[types]\ntraining = \"bool\"\nexperiment = \"str\"\n"
+  }
+]
